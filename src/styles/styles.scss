@@ -1,10 +1,22 @@
-$bg-color: #333;
-$text-color: #fff;
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ }
+ html{
+    font-size: 62.5%;
+ }
 
-*{
-    background-color: $bg-color;
-    color: $text-color;
-    h1 {
-        color: red;
-    }
-}
+//Variables
+$primary-color: #313131;
+$secondary-color: #8F8EA7;
+$gray-color: #ACACAC;
+$white-color: #FFFFFF;
+$auxiliar-color1: #FF00BA;
+$auxiliar-color2: #2D9CDB;
+$template1-text: #284A7C;
+$template1-light: #F2F7FF;
+$template1-deg: linear-gradient(180deg, #284A7C 0%, #1D3558 100%);
+$template1-btn: #6094E2;
+
+@import "_signup"

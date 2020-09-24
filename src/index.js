@@ -1,11 +1,8 @@
 import React from 'react'
 import reactDOM from 'react-dom'
-// import './styles/styles.css'
+import App from './routes/App'
 import './styles/styles.scss'
 
 
-const App = () => {
-    return <h1>Hola</h1>
-}
 
 reactDOM.render(<App />, document.getElementById('root'))
