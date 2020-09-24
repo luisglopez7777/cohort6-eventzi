@@ -5,7 +5,7 @@ import './styles/styles.scss'
 
 
 const App = () => {
-    return <h1>Mex</h1>
+    return <h1>Hola</h1>
 }
 
 reactDOM.render(<App />, document.getElementById('root'))
