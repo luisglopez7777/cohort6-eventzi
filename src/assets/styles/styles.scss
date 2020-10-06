@@ -19,4 +19,9 @@ $template1-light: #F2F7FF;
 $template1-deg: linear-gradient(180deg, #284A7C 0%, #1D3558 100%);
 $template1-btn: #6094E2;
 
-@import "_signup"
+//Pages
+@import "pages/signup";
+@import "pages/login";
+
+//Components
+@import "components/navbar"
