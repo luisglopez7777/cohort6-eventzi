@@ -6,6 +6,12 @@
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+    a{
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-left: 40%;
+    }
 }
 
 .login__container{
@@ -30,6 +36,21 @@
         font-size: 1.8rem;
         display: flex;
         flex-direction: row;
+        align-items: flex-end;
         justify-content: space-between;
     }
+    button{
+        width: 300px;
+        height: 60px;
+        background-color: rgba(167, 161, 161, 0.39);
+        margin: 50px auto;
+        border-radius: 5px;
+        border: none;
+        color: $white-color;
+        opacity: 1;
+    }
+}
+
+.italic{
+    font-style: italic;
 }

@@ -1,0 +1,60 @@
+.signup2{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100vh;
+}
+.signup2__left{
+    grid-column: 1;
+    background:  linear-gradient(180deg, rgba(0, 3, 16, 0.9) 20.83%, #0B3A80 100%);;
+}
+
+form{
+    display: flex;
+    margin: 25% 100px;
+    flex-direction: column;
+    input{
+        background: none;
+        border-right: 0px;
+        border-left: 0px;
+        border-top: 0px;        
+        border-bottom: 1px solid $white-color;
+        padding: 30px 0;
+    }::placeholder{
+        color: $white-color;
+        padding-left: 60px;
+    }
+}
+
+.signup2-btn{
+    width: 100px;
+    height: 60px;
+    background-color: rgba(196, 196, 196, 0.39);
+    margin: 20px auto;
+    border-radius: 5px;
+    border: none;
+    color: $white-color;
+}
+
+
+
+.signup2__right{
+    grid-column: 2;
+    background-color: #103B82;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.button-fb{
+    width: 200px;
+    height: 80px;
+    color: $white-color;
+    background-color: #2E41ED;
+    border: none;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+.button-google{
+    @extend .button-fb;
+    background-color: #AF3D2D;
+}

@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <div>
             <footer>
-                <h3>Platzi Master Cohort 6</h3>
+                <p>Platzi Master Cohort 6</p>
             </footer>
         </div>
     )
