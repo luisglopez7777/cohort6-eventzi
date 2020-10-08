@@ -1,9 +1,9 @@
 header{
     align-items: center;
-    background: rgb(83, 83, 83);
+    background: rgb(54, 54, 54);
     color: white;
     display: flex;
-    height: 40px;
+    height: 7%;
     justify-content: space-between;
     top: 0px;
     color: #ffffff;
@@ -13,6 +13,11 @@ header{
     margin: 0 auto;
 }
 
-.header__menu{
-    display: inline-block;
+nav{
+    display: flex;
+    ul{
+        display: inline-block;
+        font-size: 1.6rem;
+        margin: 0 15px;
+    }
 }

@@ -1,3 +1,35 @@
 .login{
-    background-image: url('https://tse1.mm.bing.net/th?id=OIP.nLGZcys8jiIlL40BrmsOPwHaEN&pid=Api')
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.nLGZcys8jiIlL40BrmsOPwHaEN&pid=Api');
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.login__container{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding-top: 200px;
+    justify-content: center;
+    align-items: center;
+    input{
+        background: none;
+        border-right: 0px;
+        border-left: 0px;
+        border-top: 0px;        
+        border-bottom: 1px solid $white-color;
+        width: 400px;
+    }::placeholder{
+        color: $white-color;
+    }
+    &-more{
+        color: $white-color;
+        font-size: 1.8rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
 }

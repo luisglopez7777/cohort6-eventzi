@@ -11,12 +11,11 @@ export default function NavBar() {
                 <h4>EVENTZI</h4>
             </Link>
 
-            <div className="header__menu">
-                <input type="text" placeholder="Search event" />
-
-                <h4>Sign up</h4>
-                <h4>Log in</h4>
-            </div>
+            <nav>
+                <ul><input type="text" placeholder="Search event" /></ul>
+                <ul>Sign up</ul>
+                <ul>Log in</ul>
+            </nav>
 
         </header>
     )
